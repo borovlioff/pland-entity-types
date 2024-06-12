@@ -1,0 +1,17 @@
+{
+  "name": "pland-entity-types",
+  "version": "1.0.0",
+  "description": "Shared types for entities used in event management system",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "class-validator": "^0.13.1",
+    "class-transformer": "^0.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
